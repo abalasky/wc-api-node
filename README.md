@@ -100,9 +100,9 @@ var WooCommerce = new WooCommerceAPI({
 - `.options(endpoint)`
 - `.options(endpoint, callback)`
 
-## Promified Methods
+## Promisified Methods
 
-Every method can be used in a promified way just adding `Async` to the method name. Like in:
+Every method can be used in a promisified way just adding `Async` to the method name. Like in:
 
 ```js
 WooCommerce.getAsync('products').then(function(result) {
